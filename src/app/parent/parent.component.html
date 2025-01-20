@@ -1,0 +1,5 @@
+<app-child [count]="count"(increment)="increment()"(decrement)="decrement()"></app-child>
+<app-notes></app-notes>
+ <h3>Parent</h3>
+ <button (click)="accessChild()">Click from Parent</button>
+ <h1>{{notesOfParent}}</h1>
