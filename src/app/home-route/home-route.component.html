@@ -1,0 +1,5 @@
+<p>home-route works!</p>
+<input type="string" [(ngModel)]="id">
+<button [disabled]="id.length===0" [routerLink]="['/user',id]" [queryParams]="{ q: 'Angular',r:'React' }">Go to page</button>
+
+

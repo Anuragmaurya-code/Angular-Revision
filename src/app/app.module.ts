@@ -10,6 +10,12 @@ import { FormsModule } from '@angular/forms';
 import { HostComponent } from './host/host.component';
 import { HighLightDirective } from './high-light.directive';
 import { MyServiceService } from './my-service.service';
+import { HomeRouteComponent } from './home-route/home-route.component';
+import { AboutRouteComponent } from './about-route/about-route.component';
+import { ContactRouteComponent } from './contact-route/contact-route.component';
+import { NotFoundComponentComponent } from './not-found-component/not-found-component.component';
+import { UserComponent } from './user/user.component';
+// import { UsersComponent } from './users/users.component';
 // import { DependencyInjectionComponent } from './dependency-injection/dependency-injection.component';
 export const API_URL = new InjectionToken<string>('API_URL');
 export const API_NEW_URL=new InjectionToken<string>('API_NEW_URL')
@@ -21,6 +27,12 @@ export const API_NEW_URL=new InjectionToken<string>('API_NEW_URL')
     ChildComponent,
     HostComponent,
     HighLightDirective,
+    HomeRouteComponent,
+    AboutRouteComponent,
+    ContactRouteComponent,
+    NotFoundComponentComponent,
+    UserComponent,
+    // UsersComponent,
     // DependencyInjectionComponent
   ],
   imports: [
