@@ -15,6 +15,7 @@ import { AboutRouteComponent } from './about-route/about-route.component';
 import { ContactRouteComponent } from './contact-route/contact-route.component';
 import { NotFoundComponentComponent } from './not-found-component/not-found-component.component';
 import { UserComponent } from './user/user.component';
+import { ChildComponentComponent } from './child-component/child-component.component';
 // import { UsersComponent } from './users/users.component';
 // import { DependencyInjectionComponent } from './dependency-injection/dependency-injection.component';
 export const API_URL = new InjectionToken<string>('API_URL');
@@ -32,6 +33,7 @@ export const API_NEW_URL=new InjectionToken<string>('API_NEW_URL')
     ContactRouteComponent,
     NotFoundComponentComponent,
     UserComponent,
+    ChildComponentComponent,
     // UsersComponent,
     // DependencyInjectionComponent
   ],

@@ -16,6 +16,7 @@ export class UserComponent implements OnInit {
     this.route.queryParams.subscribe((queries:any)=>{
       this.query=queries['q']
       console.log("react",queries['r']);
+      // console.log(localStorage.getItem('user'));
     })
   }
 
